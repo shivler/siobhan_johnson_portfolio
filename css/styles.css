@@ -1,8 +1,43 @@
-h1 {
-  font-family: "Josefin Sans", sans-serif;
+:root {
+  --hero-background-color: #f9f7fe;
+  --heading-font-family: "Josefin Sans", sans-serif;
+  --button-branding-color: #6c63ff;
+  --button-branding-font: "Reenie Beanie", cursive;
 }
 
-p {
-  font-family: "Reenie Beanie", cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+.intro {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 96px;
+}
+
+.desc {
+  font-size: 24px;
+}
+
+.hero {
+  height: 900px;
+  background-color: var(--hero-background-color);
+  text-align: center;
+  padding-top: 250px;
+}
+
+.btn-branding {
+  background-color: var(--button-branding-color);
+  font-family: var(--button-branding-font);
+  border-radius: 4px;
+  padding: 16px 40px;
   color: white;
+  text-decoration: none;
 }
