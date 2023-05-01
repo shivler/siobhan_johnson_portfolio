@@ -41,3 +41,14 @@ h6 {
   color: white;
   text-decoration: none;
 }
+
+.project-section {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 560px) {
+  .project-section {
+    padding: 0;
+    text-align: center;
+  }
+}
