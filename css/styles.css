@@ -22,8 +22,12 @@ h6 {
   font-size: 96px;
 }
 
-.desc {
+.feature-title {
   font-size: 24px;
+}
+
+.project-title {
+  font-size: 60px;
 }
 
 .hero {
@@ -33,13 +37,33 @@ h6 {
   padding-top: 100px;
 }
 
-.btn-branding {
+.btn-contact {
   background-color: var(--button-branding-color);
   font-family: var(--button-branding-font);
   border-radius: 4px;
   padding: 16px 40px;
   color: white;
   text-decoration: none;
+  font-size: 30px;
+}
+
+.btn-contact:hover {
+  color: black;
+}
+
+.btn-branding {
+  border-style: solid;
+  border-color: var(--button-branding-color);
+  font-family: var(--button-branding-font);
+  color: var(--button-branding-color);
+  border-radius: 4px;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.btn-branding:hover {
+  color: black;
 }
 
 .project-section {
@@ -47,8 +71,24 @@ h6 {
 }
 
 @media (max-width: 560px) {
-  .project-section {
-    padding: 0;
+  .container {
+    padding-bottom: 20px;
+  }
+  .project-description {
+    padding-bottom: 20px;
     text-align: center;
+  }
+  .project-title {
+    font-size: 40px;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .hero {
+    padding-top: 50px;
+    height: 450px;
+  }
+  .btn-branding {
+    font-size: 24px;
   }
 }
