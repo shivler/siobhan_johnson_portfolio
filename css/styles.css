@@ -22,6 +22,11 @@ h6 {
   font-size: 96px;
 }
 
+.desc {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
 .feature-title {
   font-size: 24px;
 }
@@ -70,6 +75,21 @@ h6 {
   padding-bottom: 80px;
 }
 
+.about-section {
+  margin: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.about-section h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-paragraph {
+  padding-bottom: 50px;
+}
+
 @media (max-width: 560px) {
   .container {
     padding-bottom: 20px;
@@ -90,5 +110,15 @@ h6 {
   }
   .btn-branding {
     font-size: 24px;
+  }
+  .about-section,
+  h1.intro,
+  h2.desc {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-section img {
+    padding-top: 30px;
   }
 }
