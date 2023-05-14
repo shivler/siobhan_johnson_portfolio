@@ -75,7 +75,8 @@ h6 {
   padding-bottom: 80px;
 }
 
-.about-section {
+.about-section,
+.work-section {
   margin: 30px;
   padding-top: 50px;
   padding-right: 50px;
@@ -88,6 +89,10 @@ h6 {
 
 .about-paragraph {
   padding-bottom: 50px;
+}
+
+.weather-title {
+  margin-top: 50px;
 }
 
 @media (max-width: 560px) {
@@ -117,8 +122,13 @@ h6 {
     text-align: center;
     padding: 0;
   }
-
   .about-section img {
     padding-top: 30px;
+  }
+  .work-section,
+  .weather-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
