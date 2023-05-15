@@ -5,6 +5,31 @@
   --button-branding-font: "Reenie Beanie", cursive;
 }
 
+.logo {
+  height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li,
+nav a {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 15px;
+  color: #272142;
+}
+
+a:hover {
+  color: var(--button-branding-color);
+}
+
+a.disabled {
+  color: grey;
+  cursor: default;
+}
+
 h1,
 h2,
 h3,
