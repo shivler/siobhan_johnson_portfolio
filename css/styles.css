@@ -67,13 +67,6 @@ h6 {
   padding-top: 100px;
 }
 
-.work-hero {
-  height: 250px;
-  background-color: var(--hero-background-color);
-  padding-top: 100px;
-  max-width: 80%;
-}
-
 .btn-contact {
   background-color: var(--button-branding-color);
   font-family: var(--button-branding-font);
@@ -204,11 +197,6 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-  .work-hero {
-    max-width: 100%;
-    padding-top: 20px;
-    height: 200px;
   }
   footer .contact-box,
   .contact-box h1 {
